@@ -1,6 +1,9 @@
 import '@/assets/globals.css'
 import NavMenu from '@/components/partials/NavMenu'
 import { Nunito, Dancing_Script } from 'next/font/google'
+import { useTexts } from '@/hooks/useTexts'
+
+const texts = useTexts()
 
 const nunito = Nunito({
   subsets: ['latin'],
@@ -13,8 +16,8 @@ const dancingScript = Dancing_Script({
 })
 
 export const metadata = {
-  title: 'Appointment Manager',
-  description: 'Created with <3',
+  title: texts.meta.title,
+  description: texts.meta.description,
 }
 
 export default function RootLayout({ children }) {
