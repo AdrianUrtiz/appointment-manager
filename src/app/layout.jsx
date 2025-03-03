@@ -23,6 +23,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='es' className={`${nunito.variable} ${dancingScript.variable}`}>
+      <head>
+        <link rel='shortcut icon' href='/images/icono.svg' />
+      </head>
       <body>
         <NavMenu />
         {children}
