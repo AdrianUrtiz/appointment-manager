@@ -1,4 +1,5 @@
-import './globals.css'
+import '@/assets/globals.css'
+import NavMenu from '@/components/partials/NavMenu'
 
 export const metadata = {
   title: 'Appointment Manager',
@@ -8,7 +9,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='es'>
-      <body>{children}</body>
+      <body>
+        <NavMenu />
+        {children}
+      </body>
     </html>
   )
 }

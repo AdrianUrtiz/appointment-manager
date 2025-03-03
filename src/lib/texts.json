@@ -1,0 +1,46 @@
+{
+  "main": {
+    "title": "Lueur Beauty",
+    "description": "Déjate envolver por un ambiente de lujo, calma y glamour. En Lueur Beauty, no solo realzamos tu belleza… la hacemos brillar. ✨",
+    "reservation": "Agendar una cita",
+    "knowMore": "Conocer más ",
+    "about": "Acerca de",
+    "openMainMenu": "Abrir menú principal",
+    "closeMainMenu": "Cerrar menú principal",
+    "heroMessage": "Es tiempo de consentirte",
+    "readMore": "Leer más"
+  },
+  "nav": {
+    "home": "Inicio",
+    "avaibility": "Calendario",
+    "services": "Servicios",
+    "pricing": "Precios",
+    "contact": "Contacto",
+    "about": "Acerca de",
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión"
+  },
+  "footer": {
+    "copyright": "© 2023 Gestor de Citas. Todos los derechos reservados.",
+    "terms": "Términos de uso",
+    "privacy": "Política de privacidad"
+  },
+  "buttons": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar"
+  },
+  "login": {
+    "title": "Iniciar sesión",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "submit": "Entrar"
+  },
+  "register": {
+    "title": "Registrarse",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "submit": "Crear cuenta"
+  }
+}
