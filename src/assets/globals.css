@@ -65,5 +65,10 @@
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-nunito);
+    --font-dancing-script: 'Dancing Script', cursive;
+  }
+  .cursive-title {
+    font-family: var(--font-dancing-script);
+    font-weight: 900;
   }
 }

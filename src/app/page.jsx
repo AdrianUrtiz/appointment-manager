@@ -27,10 +27,10 @@ export default function Main() {
             </div>
           </div>
           <div className='text-center'>
-            <h1 className='text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl'>
+            <h1 className='text-6xl font-semibold tracking-tight text-balance text-gray-900 sm:text-8xl cursive-title'>
               {texts.main.title}
             </h1>
-            <p className='mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8'>
+            <p className='mt-8 text-sm font-medium text-pretty text-gray-500 sm:text-xl/8'>
               {texts.main.description}
             </p>
             <div className='mt-10 flex items-center justify-center gap-x-6'>

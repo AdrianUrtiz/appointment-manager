@@ -1,10 +1,15 @@
 import '@/assets/globals.css'
 import NavMenu from '@/components/partials/NavMenu'
-import { Nunito } from 'next/font/google'
+import { Nunito, Dancing_Script } from 'next/font/google'
 
 const nunito = Nunito({
   subsets: ['latin'],
   variable: '--font-nunito',
+})
+
+const dancingScript = Dancing_Script({
+  subsets: ['latin'],
+  variable: '--font-dancing-script',
 })
 
 export const metadata = {
@@ -14,7 +19,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='es' className={nunito.variable}>
+    <html lang='es' className={`${nunito.variable} ${dancingScript.variable}`}>
       <body>
         <NavMenu />
         {children}
