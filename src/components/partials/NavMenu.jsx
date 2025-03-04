@@ -23,8 +23,12 @@ export default function NavMenu() {
     setMobileMenuOpen(!mobileMenuOpen)
   }
 
+  const handleLinkClick = () => {
+    setMobileMenuOpen(false)
+  }
+
   return (
-    <header className='fixed inset-x-0 top-0 z-50 bg-white/80 backdrop-blur-sm'>
+    <header className='fixed inset-x-0 top-0 z-50 backdrop-blur-sm'>
       <nav
         aria-label='Global'
         className='flex items-center justify-between p-6 lg:px-8'>
@@ -85,6 +89,7 @@ export default function NavMenu() {
                   <Link
                     key={item.name}
                     href={item.href}
+                    onClick={handleLinkClick}
                     className='-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50'>
                     {item.name}
                   </Link>
@@ -93,6 +98,7 @@ export default function NavMenu() {
               <div className='py-6'>
                 <Link
                   href='/login'
+                  onClick={handleLinkClick}
                   className='-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50'>
                   {texts.nav.login}
                 </Link>
