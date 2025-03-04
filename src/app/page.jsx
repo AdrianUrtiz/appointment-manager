@@ -3,7 +3,7 @@ import { useTexts } from '@/hooks/useTexts'
 export default function Main() {
   const texts = useTexts()
   return (
-    <div className='bg-white'>
+    <div>
       <div className='flex flex-col items-center justify-center relative isolate h-[calc(100vh-80px)] w-full px-4'>
         <div
           aria-hidden='true'
