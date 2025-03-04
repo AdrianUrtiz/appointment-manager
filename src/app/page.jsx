@@ -36,10 +36,12 @@ export default function Main() {
             <div className='mt-10 flex items-center justify-center gap-x-6'>
               <a
                 href='#'
-                className='rounded-md bg-principal-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-principal-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'>
+                className='rounded-xl bg-principal-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xl hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'>
                 {texts.main.reservation}
               </a>
-              <a href='#' className='text-sm/6 font-semibold text-gray-900'>
+              <a
+                href='#'
+                className='text-sm/6 font-semibold text-gray-900 hover:underline'>
                 {texts.main.knowMore} <span aria-hidden='true'>→</span>
               </a>
             </div>
